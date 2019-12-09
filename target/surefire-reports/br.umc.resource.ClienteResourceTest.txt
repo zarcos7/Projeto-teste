@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: br.umc.resource.ClienteResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.819 s <<< FAILURE! - in br.umc.resource.ClienteResourceTest
+deveListarClientes(br.umc.resource.ClienteResourceTest)  Time elapsed: 0.656 s  <<< ERROR!
+java.lang.NoClassDefFoundError: io/restassured/path/json/mapper/factory/JohnzonObjectMapperFactory
+	at br.umc.resource.ClienteResourceTest.deveListarClientes(ClienteResourceTest.java:25)
+Caused by: java.lang.ClassNotFoundException: io.restassured.path.json.mapper.factory.JohnzonObjectMapperFactory
+	at br.umc.resource.ClienteResourceTest.deveListarClientes(ClienteResourceTest.java:25)
+
